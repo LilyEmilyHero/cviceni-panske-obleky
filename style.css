@@ -28,6 +28,17 @@ header {
   height: 360px;
 }
 
+h1.site-title {
+  font-family: 'Fashion Victim';
+  font-size: 6rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h1.site-title span {
+  margin: 0 2rem;
+}
+
 .product {
   margin-top: -5rem;
   padding: 3rem;
@@ -42,4 +53,9 @@ header {
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+@font-face {
+  font-family: 'Fashion Victim';
+  src: url(fonts/fashion-victim.woff2) format('woff2');
 }
