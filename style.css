@@ -60,4 +60,11 @@ h1.site-title span {
   src: url(fonts/fashion-victim.woff2) format('woff2');
 }
 
-
+.button__color-white,
+.button__color-black, 
+.button__color-red,
+.button__color-blue {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
